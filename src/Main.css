@@ -1,0 +1,50 @@
+.main {
+    width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    padding: 2rem;
+}
+
+.circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.odd {
+    height: 220px;
+    width: 220px;
+    background-color: rgb(240, 9, 233);
+    border-radius: 50%;
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+
+}
+
+.even {
+    height: 220px;
+    width: 220px;
+    background-color: rgb(74, 218, 26);
+    border-radius: 50%;
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.buttons {
+    margin-top: 6rem;
+}
